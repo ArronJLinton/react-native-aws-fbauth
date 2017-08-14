@@ -8,7 +8,6 @@ const Spinner = ({ size }) => {
 		- if we pass in a specified size, we use that; else set the size to large
 	*/}
 			<ActivityIndicator size={size || 'large'} />
-		}
 		</View>
 
 
