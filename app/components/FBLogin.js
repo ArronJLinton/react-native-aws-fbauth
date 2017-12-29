@@ -7,7 +7,13 @@ import {
 } from 'react-native'
 import FBSDK from 'react-native-fbsdk';
 
-const { LoginManager, LoginButton , AccessToken } = FBSDK;
+const {
+  LoginManager,
+  LoginButton,
+  AccessToken,
+  GraphRequest,
+  GraphRequestManager
+} = FBSDK;
 
 
 export default class FBLogin extends Component {
@@ -26,6 +32,29 @@ _handleLogin(){
         alert('Login fail with error: ' + err)
     })
 }
+
+
+//Create response callback.
+_responseInfoCallback(error, result) {
+  if (error) {
+    alert('Error fetching data: ' + error.toString());
+  } else {
+      console.log(result)
+    alert('WELCOME ' + result.name);
+  }
+}
+
+
+
+    // Start the graph request.
+    _requestInfo(){
+        console.log("requesting info")
+        // Create a graph request asking for user information with a callback to handle the response.
+        const infoRequest = new GraphRequest("/me", null, this._responseInfoCallback);
+        new GraphRequestManager()
+            .addRequest(infoRequest)
+            .start();
+        }
 
 render() {
     return (
@@ -54,7 +83,9 @@ render() {
                 AccessToken.getCurrentAccessToken().then(
                   (data) => {
                       console.log("user data: " + JSON.stringify(data))
-                    alert(data.accessToken.toString())
+                    //   alert("Login Successful !")
+                    // alert(data.accessToken.toString())
+                    this._requestInfo();
                   }
                 )
               }
