@@ -1,0 +1,22 @@
+{
+	"ProjectName": "auth",
+	"ProjectPath": "/Users/arronlinton/Desktop/playGround/reactNative/auth",
+	"SourceDir": "/",
+	"DistributionDir": "/ios/build",
+	"BuildCommand": "npm run-script build",
+	"StartCommand": "npm start",
+	"InitializationTime": "2017-12-28-22-11-51",
+	"LastConfigurationTime": "2017-12-28-22-13-48",
+	"LastNPMInstallTime": "",
+	"FrontendLastBuildTime": "",
+	"LastPublishTime": "",
+	"BackendFormat": "yml",
+	"BackendLastBuildTime": "",
+	"BackendLastUpdateTime": "",
+	"BackendLastUpdateSuccessful": false,
+	"BackendProjectID": "93fc0158-882e-4d38-960b-b7c832363bc4",
+	"BackendProjectName": "react-native-auth",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/93fc0158-882e-4d38-960b-b7c832363bc4/build",
+	"BackendProjectCreationTime": "2017-12-29T03:14:13.561Z",
+	"BackendProjectLastUpdatedTime": "2017-12-29T03:14:13.561Z"
+}
