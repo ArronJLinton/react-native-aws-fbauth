@@ -7,7 +7,7 @@ import {
 } from 'react-native'
 import FBSDK from 'react-native-fbsdk';
 
-const { LoginManager, AccessToken } = FBSDK;
+const { LoginManager, LoginButton , AccessToken } = FBSDK;
 
 
 export default class FBLogin extends Component {
@@ -29,15 +29,38 @@ _handleLogin(){
 
 render() {
     return (
-      <View>
-        <TouchableOpacity
-        onPress={() => this._handleLogin()}
-        >
-        <Text>
-            Facebook Login
-        </Text>
-        </TouchableOpacity>
+    //   <View>
+    //     <TouchableOpacity
+    //     onPress={() => this._handleLogin()}
+    //     >
+    //     <Text>
+    //         Facebook Login
+    //     </Text>
+    //     </TouchableOpacity>
 
+    //   </View>
+
+
+    <View>
+        <LoginButton
+          publishPermissions={["publish_actions"]}
+          onLoginFinished={
+            (error, result) => {
+              if (error) {
+                alert("login has error: " + result.error);
+              } else if (result.isCancelled) {
+                alert("login is cancelled.");
+              } else {
+                AccessToken.getCurrentAccessToken().then(
+                  (data) => {
+                      console.log("user data: " + JSON.stringify(data))
+                    alert(data.accessToken.toString())
+                  }
+                )
+              }
+            }
+          }
+          onLogoutFinished={() => alert("logout.")}/>
       </View>
     );
   }
