@@ -23,6 +23,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		2B406FDE1FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
+		2B406FDF1FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
+		2B406FE01FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
+		2B406FE11FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
 		2B534B241FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */; };
 		2B534B251FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */; };
 		2B534B261FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */; };
@@ -315,6 +319,11 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = auth/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		16173DDF75F0C1FDA09E5923 /* Pods-authTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-authTests/Pods-authTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B406FD91FFE11FC0095A816 /* auth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B406FDA1FFE11FC0095A816 /* authTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "authTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B406FDB1FFE11FC0095A816 /* auth-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B406FDC1FFE11FC0095A816 /* auth-tvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-tvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		2B534B211FF589540024CD13 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		2B534B221FF589550024CD13 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -502,6 +511,11 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */,
+				2B406FD91FFE11FC0095A816 /* auth-Bridging-Header.h */,
+				2B406FDA1FFE11FC0095A816 /* authTests-Bridging-Header.h */,
+				2B406FDB1FFE11FC0095A816 /* auth-tvOS-Bridging-Header.h */,
+				2B406FDC1FFE11FC0095A816 /* auth-tvOSTests-Bridging-Header.h */,
 			);
 			name = auth;
 			sourceTree = "<group>";
@@ -752,19 +766,23 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = TTTZJ4YJNY;
+						LastSwiftMigration = 0920;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = TTTZJ4YJNY;
+						LastSwiftMigration = 0920;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = TTTZJ4YJNY;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = TTTZJ4YJNY;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -1212,9 +1230,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-auth/Pods-auth-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/AWSAuthUI/AWSAuthUI.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/AWSUserPoolsSignIn/AWSUserPoolsSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1327,6 +1349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B406FDF1FFE11FC0095A816 /* AppDelegate.swift in Sources */,
 				00E356F31AD99517003FC87E /* authTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1335,6 +1358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B406FDE1FFE11FC0095A816 /* AppDelegate.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -1344,6 +1368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B406FE01FFE11FC0095A816 /* AppDelegate.swift in Sources */,
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
@@ -1353,6 +1378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B406FE11FFE11FC0095A816 /* AppDelegate.swift in Sources */,
 				2DCD954D1E0B4F2C00145EB5 /* authTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1389,7 +1415,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16173DDF75F0C1FDA09E5923 /* Pods-authTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1417,6 +1445,9 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "authTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auth.app/auth";
 			};
 			name = Debug;
@@ -1425,7 +1456,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6E4E7E3B7AB4F552490138C /* Pods-authTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1450,6 +1483,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "authTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auth.app/auth";
 			};
 			name = Release;
@@ -1459,6 +1494,7 @@
 			baseConfigurationReference = 442873A4C8FAF794292EF910 /* Pods-auth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
@@ -1482,6 +1518,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.authFucci;
 				PRODUCT_NAME = auth;
+				SWIFT_OBJC_BRIDGING_HEADER = "auth-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1491,6 +1530,7 @@
 			baseConfigurationReference = 93C1367D7895DB5E27CA82E3 /* Pods-auth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1513,6 +1553,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.authFucci;
 				PRODUCT_NAME = auth;
+				SWIFT_OBJC_BRIDGING_HEADER = "auth-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1524,6 +1566,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1554,6 +1597,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.auth-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "auth-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -1566,6 +1612,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1596,6 +1643,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.auth-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "auth-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -1605,8 +1654,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C7D1C66A5A112D190FDF032 /* Pods-auth-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1628,6 +1679,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.auth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "auth-tvOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auth-tvOS.app/auth-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
@@ -1637,8 +1691,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A3053ADFB55FE9800DC2C84 /* Pods-auth-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1660,6 +1716,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.auth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "auth-tvOSTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auth-tvOS.app/auth-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
