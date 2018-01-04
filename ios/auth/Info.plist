@@ -31,10 +31,10 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>FacebookAppID</key>
-	<string>475667102829530</string>
-	<key>FacebookDisplayName</key>
-	<string>ooo-weee</string>
+  <key>FacebookAppID</key>
+  <string>135620470463819</string>
+  <key>FacebookDisplayName</key>
+  <string>auth</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>

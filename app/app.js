@@ -5,6 +5,12 @@ import firebase from 'firebase';
 // header was exported as an object so we must import it as an object with {}
 import { Header, Button, Spinner } from './components/common';
 import LoginForm from './components/LoginForm';
+import Amplify from "aws-amplify-react-native";
+
+import aws_exports from "../aws-exports.js";
+
+// AWS Mobile uses the open source AWS Amplify library to link your code to the AWS features configured for your app.
+Amplify.configure(aws_exports);
 
 export default class App extends Component {
 

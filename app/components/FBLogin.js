@@ -18,19 +18,23 @@ const {
 
 export default class FBLogin extends Component {
 
-_handleLogin(){
-    LoginManager.logInWithReadPermissions(['public_profile']).then((user) => {
-        if(user.isCancelled){
-            alert('Unable to sign in, cancelled by user')
-        }else{
-            console.log('user info: ' + JSON.stringify(user))
-            alert('Login success with permissions' + user.grantedPermissions.toString())
-            // console.log("current user:" + this.user)
-        }
-    })
-    .catch((err) => {
-        alert('Login fail with error: ' + err)
-    })
+// _handleLogin(){
+//     LoginManager.logInWithReadPermissions(['public_profile']).then((user) => {
+//         if(user.isCancelled){
+//             alert('Unable to sign in, cancelled by user')
+//         }else{
+//             console.log('user info: ' + JSON.stringify(user))
+//             alert('Login success with permissions' + user.grantedPermissions.toString())
+//             // console.log("current user:" + this.user)
+//         }
+//     })
+//     .catch((err) => {
+//         alert('Login fail with error: ' + err)
+//     })
+// }
+
+_handleLogin = () => {
+  console.log("working")
 }
 
 
@@ -58,41 +62,42 @@ _responseInfoCallback(error, result) {
 
 render() {
     return (
-    //   <View>
-    //     <TouchableOpacity
-    //     onPress={() => this._handleLogin()}
-    //     >
-    //     <Text>
-    //         Facebook Login
-    //     </Text>
-    //     </TouchableOpacity>
+      <View>
+        <TouchableOpacity
+        onPress={() => this._handleLogin()}
+        >
+        <Text>
+            Facebook Login
+        </Text>
+        </TouchableOpacity>
 
-    //   </View>
-
-
-    <View>
-        <LoginButton
-          publishPermissions={["publish_actions"]}
-          onLoginFinished={
-            (error, result) => {
-              if (error) {
-                alert("login has error: " + result.error);
-              } else if (result.isCancelled) {
-                alert("login is cancelled.");
-              } else {
-                AccessToken.getCurrentAccessToken().then(
-                  (data) => {
-                      console.log("user data: " + JSON.stringify(data))
-                    //   alert("Login Successful !")
-                    // alert(data.accessToken.toString())
-                    this._requestInfo();
-                  }
-                )
-              }
-            }
-          }
-          onLogoutFinished={() => alert("logout.")}/>
       </View>
+
+
+    // <View>
+    //     <LoginButton
+    //       publishPermissions={["publish_actions"]}
+    //       onLoginFinished={
+    //         (error, result) => {
+    //           if (error) {
+    //             alert("login has error: " + result.error);
+    //           } else if (result.isCancelled) {
+    //             alert("login is cancelled.");
+    //           } else {
+    //             AccessToken.getCurrentAccessToken().then(
+    //               (data) => {
+    //                   console.log("user data: " + JSON.stringify(data))
+    //                 //   alert("Login Successful !")
+    //                 // alert(data.accessToken.toString())
+    //                 this._requestInfo();
+    //               }
+    //             )
+    //           }
+    //         }
+    //       }
+    //       onLogoutFinished={() => alert("logout.")}
+    //       />
+    //   </View>
     );
   }
 }
