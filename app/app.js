@@ -7,12 +7,14 @@ import { Header, Button, Spinner } from './components/common';
 import LoginForm from './components/LoginForm';
 import Amplify from "aws-amplify-react-native";
 
+import { withAuthenticator } from "aws-amplify-react-native";
+
 import aws_exports from "../aws-exports.js";
 
 // AWS Mobile uses the open source AWS Amplify library to link your code to the AWS features configured for your app.
 Amplify.configure(aws_exports);
 
-export default class App extends Component {
+class App extends Component {
 
 // by default, app assumes you are not signed in
 	state = { loggedIn: null }
@@ -82,3 +84,7 @@ const styles = {
 		paddingTop: 100
 	}
 };
+
+
+export default withAuthenticator(App);
+

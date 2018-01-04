@@ -7,16 +7,16 @@
 	"StartCommand": "npm start",
 	"InitializationTime": "2017-12-28-22-11-51",
 	"LastConfigurationTime": "2017-12-28-22-13-48",
-	"LastNPMInstallTime": "",
+	"LastNPMInstallTime": "2018-01-04-01-44-34",
 	"FrontendLastBuildTime": "",
 	"LastPublishTime": "",
 	"BackendFormat": "yml",
-	"BackendLastBuildTime": "2018-01-04-01-38-08",
-	"BackendLastUpdateTime": "2018-01-04-01-38-25",
+	"BackendLastBuildTime": "2018-01-04-01-58-32",
+	"BackendLastUpdateTime": "2018-01-04-01-58-34",
 	"BackendLastUpdateSuccessful": true,
 	"BackendProjectID": "93fc0158-882e-4d38-960b-b7c832363bc4",
 	"BackendProjectName": "react-native-auth",
 	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/93fc0158-882e-4d38-960b-b7c832363bc4/build",
 	"BackendProjectCreationTime": "2017-12-29T03:14:13.561Z",
-	"BackendProjectLastUpdatedTime": "2018-01-04T06:38:24.801Z"
+	"BackendProjectLastUpdatedTime": "2018-01-04T06:58:33.590Z"
 }
