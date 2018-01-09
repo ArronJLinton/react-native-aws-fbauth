@@ -10,6 +10,8 @@
 #define auth_Bridging_Header_h
 
 #import <AWSMobileClient/AWSMobileClient.h>
+//#import <AWSPinpoint/AWSPinpoint.h>
+//#import <AWSUserPoolsSignIn/AWSUserPoolsSignIn.h>
 
 
 #endif /* auth_Bridging_Header_h */

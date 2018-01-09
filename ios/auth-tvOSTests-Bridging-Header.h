@@ -3,4 +3,7 @@
 //
 
 #import <AWSMobileClient/AWSMobileClient.h>
+//#import <AWSPinpoint/AWSPinpoint.h>
+
+//#import <AWSUserPoolsSignIn/AWSUserPoolsSignIn.h>
 
