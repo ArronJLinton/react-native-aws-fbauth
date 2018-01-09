@@ -1,1 +1,0 @@
-../../../AWSAuthUI/AWSAuthSDK/Sources/AWSUserPoolsSignIn/UserPoolsUI/AWSTableInputCell.h

@@ -1,1 +1,0 @@
-../../../AWSAuthUI/AWSAuthSDK/Sources/AWSAuthUI/AWSAuthUIViewController.h

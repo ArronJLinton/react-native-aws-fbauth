@@ -7,45 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005223AD0AFBD3CA7B229105 /* libPods-auth-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398E724FDE13DC35F1507163 /* libPods-auth-tvOS.a */; };
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* authTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* authTests.m */; };
+		0788B40777487DB183F47E2C /* libPods-auth-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF6FF5230FF555535CBF5B5 /* libPods-auth-tvOS.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2B406FDE1FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
-		2B406FDF1FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
-		2B406FE01FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
-		2B406FE11FFE11FC0095A816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */; };
-		2B534B241FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */; };
-		2B534B251FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */; };
-		2B534B261FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */; };
-		2B534B271FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */; };
-		2B534B281FF589560024CD13 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B211FF589540024CD13 /* Bolts.framework */; };
-		2B534B291FF589560024CD13 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B211FF589540024CD13 /* Bolts.framework */; };
-		2B534B2A1FF589560024CD13 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B211FF589540024CD13 /* Bolts.framework */; };
-		2B534B2B1FF589560024CD13 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B211FF589540024CD13 /* Bolts.framework */; };
-		2B534B2C1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B221FF589550024CD13 /* FBSDKLoginKit.framework */; };
-		2B534B2D1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B221FF589550024CD13 /* FBSDKLoginKit.framework */; };
-		2B534B2E1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B221FF589550024CD13 /* FBSDKLoginKit.framework */; };
-		2B534B2F1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B221FF589550024CD13 /* FBSDKLoginKit.framework */; };
-		2B534B301FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B231FF589560024CD13 /* FBSDKShareKit.framework */; };
-		2B534B311FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B231FF589560024CD13 /* FBSDKShareKit.framework */; };
-		2B534B321FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B231FF589560024CD13 /* FBSDKShareKit.framework */; };
-		2B534B331FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B534B231FF589560024CD13 /* FBSDKShareKit.framework */; };
+		2B7E88C020042894000FBA50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2B7E88E620042895000FBA50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2B9DDFF1200454B800974972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DDFCB200454B800974972 /* ViewController.swift */; };
+		2B9DDFF2200454B800974972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DDFCB200454B800974972 /* ViewController.swift */; };
+		2B9DDFF3200454B800974972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DDFCB200454B800974972 /* ViewController.swift */; };
+		2B9DDFF4200454B800974972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DDFCB200454B800974972 /* ViewController.swift */; };
+		2BBE44512003FD7D00ADD7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE44502003FD7D00ADD7D6 /* AppDelegate.swift */; };
+		2BBE44522003FD7D00ADD7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE44502003FD7D00ADD7D6 /* AppDelegate.swift */; };
+		2BBE44532003FD7D00ADD7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE44502003FD7D00ADD7D6 /* AppDelegate.swift */; };
+		2BBE44542003FD7D00ADD7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE44502003FD7D00ADD7D6 /* AppDelegate.swift */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */; };
 		2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */; };
@@ -53,15 +41,14 @@
 		2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */; };
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
-		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* authTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* authTests.m */; };
-		51B68F373F0C64E68C3E106F /* libPods-auth-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3CFF5287EB181E8AF0CEC1 /* libPods-auth-tvOSTests.a */; };
-		5A69C703BBFD4B8980A77BD7 /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2D76E9F01A41D58F5F4F59 /* libRCTFBSDK.a */; };
+		42A3C2BD706AF0C1D1EBA52C /* Pods_authTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44FEA3A5166A9CA1F37F473 /* Pods_authTests.framework */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		68749080750711D11780F61C /* libPods-auth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A4B137A25D0A06F0346B77 /* libPods-auth.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		CF060FDC1CAA4F13ADFF5EEE /* libRNAWSCognito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4ED3CF441C43028F359A65 /* libRNAWSCognito.a */; };
-		E8A073AEB9AFF426D001C57F /* libPods-authTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B5F0F3F1CC9E3C57BFF6E8 /* libPods-authTests.a */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		D6AAD851797207827F67AF3B /* Pods_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397200E6476BF8AFE0A130E /* Pods_auth.framework */; };
+		E7B9E5952195369F4930FE9F /* libPods-auth-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BBA3D00E6B3F655E3E48BB /* libPods-auth-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,47 +115,61 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
-		2B534B601FF58F900024CD13 /* PBXContainerItemProxy */ = {
+		2BBE443C2003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6ADA67AAA1574CC69453FF47 /* RCTFBSDK.xcodeproj */;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9350E0F11CE3B0920041D815;
-			remoteInfo = RCTFBSDK;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
 		};
-		2B6B80C81FF3182C0024C4B8 /* PBXContainerItemProxy */ = {
+		2BBE443E2003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		2BBE44402003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
 			remoteInfo = "third-party";
 		};
-		2B6B80CA1FF3182C0024C4B8 /* PBXContainerItemProxy */ = {
+		2BBE44422003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
 			remoteInfo = "third-party-tvOS";
 		};
-		2B6B80CC1FF3182C0024C4B8 /* PBXContainerItemProxy */ = {
+		2BBE44442003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
 			remoteInfo = "double-conversion";
 		};
-		2B6B80CE1FF3182C0024C4B8 /* PBXContainerItemProxy */ = {
+		2BBE44462003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
 		};
-		2BBD11751FFE046C006422DD /* PBXContainerItemProxy */ = {
+		2BBE44482003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C9FC87F8E7314D46905DA88E /* RNAWSCognito.xcodeproj */;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNAWSCognito;
+			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
+			remoteInfo = privatedata;
+		};
+		2BBE444A2003FC9F00ADD7D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
+			remoteInfo = "privatedata-tvOS";
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -176,6 +177,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "auth-tvOS";
+		};
+		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ADD01A681E09402E00F6D226;
+			remoteInfo = "RCTBlob-tvOS";
+		};
+		2D16E6831FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DBE0D001F3B181A0099AA32;
+			remoteInfo = fishhook;
+		};
+		2D16E6851FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DBE0D0D1F3B181C0099AA32;
+			remoteInfo = "fishhook-tvOS";
 		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -296,6 +318,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
+			remoteInfo = RCTBlob;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -308,6 +337,7 @@
 		00E356EE1AD99517003FC87E /* authTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = authTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* authTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = authTests.m; sourceTree = "<group>"; };
+		0397200E6476BF8AFE0A130E /* Pods_auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auth.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,38 +346,31 @@
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = auth/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = auth/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = auth/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		16173DDF75F0C1FDA09E5923 /* Pods-authTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-authTests/Pods-authTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B406FD91FFE11FC0095A816 /* auth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-Bridging-Header.h"; sourceTree = "<group>"; };
-		2B406FDA1FFE11FC0095A816 /* authTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "authTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		2B406FDB1FFE11FC0095A816 /* auth-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		2B406FDC1FFE11FC0095A816 /* auth-tvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-tvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		2B534B211FF589540024CD13 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		2B534B221FF589550024CD13 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		2B534B231FF589560024CD13 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		160A658C2D0203A70BE4C1EE /* Pods-auth-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOS/Pods-auth-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1879CE29AE5F1167E3AFEBBA /* Pods-auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth.release.xcconfig"; path = "Pods/Target Support Files/Pods-auth/Pods-auth.release.xcconfig"; sourceTree = "<group>"; };
+		2B9DDFCB200454B800974972 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BBE444C2003FD7C00ADD7D6 /* auth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BBE444D2003FD7C00ADD7D6 /* authTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "authTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BBE444E2003FD7C00ADD7D6 /* auth-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BBE444F2003FD7C00ADD7D6 /* auth-tvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth-tvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BBE44502003FD7D00ADD7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* auth-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "auth-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* auth-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "auth-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		398E724FDE13DC35F1507163 /* libPods-auth-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-auth-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A3053ADFB55FE9800DC2C84 /* Pods-auth-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		442873A4C8FAF794292EF910 /* Pods-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auth/Pods-auth.debug.xcconfig"; sourceTree = "<group>"; };
-		4A2D76E9F01A41D58F5F4F59 /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
-		5B4ED3CF441C43028F359A65 /* libRNAWSCognito.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAWSCognito.a; sourceTree = "<group>"; };
-		5D3CFF5287EB181E8AF0CEC1 /* libPods-auth-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-auth-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AB2375783CA9F933C9D986 /* Pods-authTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-authTests/Pods-authTests.release.xcconfig"; sourceTree = "<group>"; };
+		4714F5246AF2092DD71B1055 /* Pods-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auth/Pods-auth.debug.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		6ADA67AAA1574CC69453FF47 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
-		75A4B137A25D0A06F0346B77 /* libPods-auth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-auth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F55BB95DA3AFF9CA7B3DF70 /* Pods-authTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-authTests/Pods-authTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76BBA3D00E6B3F655E3E48BB /* libPods-auth-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-auth-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
-		7C7D1C66A5A112D190FDF032 /* Pods-auth-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		93C1367D7895DB5E27CA82E3 /* Pods-auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth.release.xcconfig"; path = "Pods/Target Support Files/Pods-auth/Pods-auth.release.xcconfig"; sourceTree = "<group>"; };
-		A8894A5A24E83DD722E4F508 /* Pods-auth-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOS/Pods-auth-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A8B5F0F3F1CC9E3C57BFF6E8 /* libPods-authTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-authTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1346C5977BBB4F105B9419C /* Pods-auth-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOS/Pods-auth-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C9FC87F8E7314D46905DA88E /* RNAWSCognito.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAWSCognito.xcodeproj; path = "../node_modules/amazon-cognito-identity-js/ios/RNAWSCognito.xcodeproj"; sourceTree = "<group>"; };
-		E6E4E7E3B7AB4F552490138C /* Pods-authTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-authTests/Pods-authTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		C44FEA3A5166A9CA1F37F473 /* Pods_authTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_authTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF6FF5230FF555535CBF5B5 /* libPods-auth-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-auth-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3795775583B43211C871F29 /* Pods-auth-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOS/Pods-auth-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F6805B6EB76EBBA8A1115924 /* Pods-auth-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA342FAC14C46C36183A300A /* Pods-auth-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auth-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,12 +378,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B534B291FF589560024CD13 /* Bolts.framework in Frameworks */,
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				2B534B311FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */,
-				2B534B2D1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */,
-				2B534B251FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */,
-				E8A073AEB9AFF426D001C57F /* libPods-authTests.a in Frameworks */,
+				42A3C2BD706AF0C1D1EBA52C /* Pods_authTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,24 +387,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
-				2B534B241FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */,
-				2B534B301FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
-				2B534B2C1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				2B534B281FF589560024CD13 /* Bolts.framework in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				5A69C703BBFD4B8980A77BD7 /* libRCTFBSDK.a in Frameworks */,
-				CF060FDC1CAA4F13ADFF5EEE /* libRNAWSCognito.a in Frameworks */,
-				68749080750711D11780F61C /* libPods-auth.a in Frameworks */,
+				D6AAD851797207827F67AF3B /* Pods_auth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,19 +408,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */,
+				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
 				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
 				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
 				2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */,
 				2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */,
-				2B534B2A1FF589560024CD13 /* Bolts.framework in Frameworks */,
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
-				2B534B321FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */,
-				2B534B2E1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */,
-				2B534B261FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				005223AD0AFBD3CA7B229105 /* libPods-auth-tvOS.a in Frameworks */,
+				0788B40777487DB183F47E2C /* libPods-auth-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,11 +424,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B534B331FF589560024CD13 /* FBSDKShareKit.framework in Frameworks */,
-				2B534B271FF589560024CD13 /* FBSDKCoreKit.framework in Frameworks */,
-				2B534B2B1FF589560024CD13 /* Bolts.framework in Frameworks */,
-				2B534B2F1FF589560024CD13 /* FBSDKLoginKit.framework in Frameworks */,
-				51B68F373F0C64E68C3E106F /* libPods-auth-tvOSTests.a in Frameworks */,
+				E7B9E5952195369F4930FE9F /* libPods-auth-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +504,8 @@
 			children = (
 				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
 				3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */,
+				2D16E6841FA4F8DC00B85C8A /* libfishhook.a */,
+				2D16E6861FA4F8DC00B85C8A /* libfishhook-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -510,12 +519,12 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				13B07FB71A68108700A75B9A /* main.m */,
-				2B406FDD1FFE11FC0095A816 /* AppDelegate.swift */,
-				2B406FD91FFE11FC0095A816 /* auth-Bridging-Header.h */,
-				2B406FDA1FFE11FC0095A816 /* authTests-Bridging-Header.h */,
-				2B406FDB1FFE11FC0095A816 /* auth-tvOS-Bridging-Header.h */,
-				2B406FDC1FFE11FC0095A816 /* auth-tvOSTests-Bridging-Header.h */,
+				2BBE44502003FD7D00ADD7D6 /* AppDelegate.swift */,
+				2BBE444C2003FD7C00ADD7D6 /* auth-Bridging-Header.h */,
+				2BBE444D2003FD7C00ADD7D6 /* authTests-Bridging-Header.h */,
+				2BBE444E2003FD7C00ADD7D6 /* auth-tvOS-Bridging-Header.h */,
+				2BBE444F2003FD7C00ADD7D6 /* auth-tvOSTests-Bridging-Header.h */,
+				2B9DDFCB200454B800974972 /* ViewController.swift */,
 			);
 			name = auth;
 			sourceTree = "<group>";
@@ -531,37 +540,43 @@
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
-				2B6B80C91FF3182C0024C4B8 /* libthird-party.a */,
-				2B6B80CB1FF3182C0024C4B8 /* libthird-party.a */,
-				2B6B80CD1FF3182C0024C4B8 /* libdouble-conversion.a */,
-				2B6B80CF1FF3182C0024C4B8 /* libdouble-conversion.a */,
+				2BBE443D2003FC9F00ADD7D6 /* libjsinspector.a */,
+				2BBE443F2003FC9F00ADD7D6 /* libjsinspector-tvOS.a */,
+				2BBE44412003FC9F00ADD7D6 /* libthird-party.a */,
+				2BBE44432003FC9F00ADD7D6 /* libthird-party.a */,
+				2BBE44452003FC9F00ADD7D6 /* libdouble-conversion.a */,
+				2BBE44472003FC9F00ADD7D6 /* libdouble-conversion.a */,
+				2BBE44492003FC9F00ADD7D6 /* libprivatedata.a */,
+				2BBE444B2003FC9F00ADD7D6 /* libprivatedata-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B534B3F1FF58F830024CD13 /* Recovered References */ = {
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A2D76E9F01A41D58F5F4F59 /* libRCTFBSDK.a */,
-				5B4ED3CF441C43028F359A65 /* libRNAWSCognito.a */,
+				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				0397200E6476BF8AFE0A130E /* Pods_auth.framework */,
+				CAF6FF5230FF555535CBF5B5 /* libPods-auth-tvOS.a */,
+				76BBA3D00E6B3F655E3E48BB /* libPods-auth-tvOSTests.a */,
+				C44FEA3A5166A9CA1F37F473 /* Pods_authTests.framework */,
 			);
-			name = "Recovered References";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2B534B5D1FF58F900024CD13 /* Products */ = {
+		4B317614B5449EEBB79CF516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B534B611FF58F900024CD13 /* libRCTFBSDK.a */,
+				4714F5246AF2092DD71B1055 /* Pods-auth.debug.xcconfig */,
+				1879CE29AE5F1167E3AFEBBA /* Pods-auth.release.xcconfig */,
+				D3795775583B43211C871F29 /* Pods-auth-tvOS.debug.xcconfig */,
+				160A658C2D0203A70BE4C1EE /* Pods-auth-tvOS.release.xcconfig */,
+				F6805B6EB76EBBA8A1115924 /* Pods-auth-tvOSTests.debug.xcconfig */,
+				FA342FAC14C46C36183A300A /* Pods-auth-tvOSTests.release.xcconfig */,
+				6F55BB95DA3AFF9CA7B3DF70 /* Pods-authTests.debug.xcconfig */,
+				40AB2375783CA9F933C9D986 /* Pods-authTests.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2BBD11721FFE046C006422DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2BBD11761FFE046C006422DD /* libRNAWSCognito.a */,
-			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -571,17 +586,6 @@
 				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5FD56DD585EC53AC0B53E101 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				75A4B137A25D0A06F0346B77 /* libPods-auth.a */,
-				398E724FDE13DC35F1507163 /* libPods-auth-tvOS.a */,
-				5D3CFF5287EB181E8AF0CEC1 /* libPods-auth-tvOSTests.a */,
-				A8B5F0F3F1CC9E3C57BFF6E8 /* libPods-authTests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -599,6 +603,7 @@
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
+				ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
 				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
 				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
@@ -607,8 +612,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				6ADA67AAA1574CC69453FF47 /* RCTFBSDK.xcodeproj */,
-				C9FC87F8E7314D46905DA88E /* RNAWSCognito.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -629,17 +632,13 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* authTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				2B534B211FF589540024CD13 /* Bolts.framework */,
-				2B534B201FF589540024CD13 /* FBSDKCoreKit.framework */,
-				2B534B221FF589550024CD13 /* FBSDKLoginKit.framework */,
-				2B534B231FF589560024CD13 /* FBSDKShareKit.framework */,
-				2B534B3F1FF58F830024CD13 /* Recovered References */,
-				870273AC94F104FFEBD860E9 /* Pods */,
-				5FD56DD585EC53AC0B53E101 /* Frameworks */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4B317614B5449EEBB79CF516 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
+			usesTabs = 0;
 		};
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
@@ -652,19 +651,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		870273AC94F104FFEBD860E9 /* Pods */ = {
+		ADBDB9201DFEBF0600ED6528 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				442873A4C8FAF794292EF910 /* Pods-auth.debug.xcconfig */,
-				93C1367D7895DB5E27CA82E3 /* Pods-auth.release.xcconfig */,
-				A8894A5A24E83DD722E4F508 /* Pods-auth-tvOS.debug.xcconfig */,
-				C1346C5977BBB4F105B9419C /* Pods-auth-tvOS.release.xcconfig */,
-				7C7D1C66A5A112D190FDF032 /* Pods-auth-tvOSTests.debug.xcconfig */,
-				3A3053ADFB55FE9800DC2C84 /* Pods-auth-tvOSTests.release.xcconfig */,
-				16173DDF75F0C1FDA09E5923 /* Pods-authTests.debug.xcconfig */,
-				E6E4E7E3B7AB4F552490138C /* Pods-authTests.release.xcconfig */,
+				ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */,
+				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -674,12 +667,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "authTests" */;
 			buildPhases = (
-				0027F12EBAB3150B4383936E /* [CP] Check Pods Manifest.lock */,
+				C966326634670C1E2861649C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				2A403E64D79102B627A4F0B6 /* [CP] Embed Pods Frameworks */,
-				7E07DC3B57D5DE62E97AE662 /* [CP] Copy Pods Resources */,
+				EEC1A8E8476A898AB359C80C /* [CP] Embed Pods Frameworks */,
+				B3A3DA7CD07D72D6896C6C9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -695,13 +688,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "auth" */;
 			buildPhases = (
-				EF9FF8754885C2C9EE2EC7CE /* [CP] Check Pods Manifest.lock */,
+				BA1089683A6A51E7AB84BE35 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FF773C12640DA0FB46D0A51E /* [CP] Embed Pods Frameworks */,
-				45B7A0F962D69219A6337B11 /* [CP] Copy Pods Resources */,
+				67D0634B62E1F9E12DCACF5A /* [CP] Embed Pods Frameworks */,
+				705CC9022720990B90577B2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -716,13 +709,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "auth-tvOS" */;
 			buildPhases = (
-				D084ABC46317A9B51FDF4010 /* [CP] Check Pods Manifest.lock */,
+				EDF436453E6A79EBF935E9FB /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-				12D241A68676E59F5FC45D30 /* [CP] Embed Pods Frameworks */,
-				1E14F45883B4C1898DD28796 /* [CP] Copy Pods Resources */,
+				BDD6066BFC761EAB8D643668 /* [CP] Embed Pods Frameworks */,
+				1A7EDF0E03E565E48F7AFE67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -737,12 +730,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "auth-tvOSTests" */;
 			buildPhases = (
-				BAD01BF1CE7FECAB32576506 /* [CP] Check Pods Manifest.lock */,
+				6FE9F53EE5506B794EAE5DC4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
-				18044C4DBB99CDE05A7377D9 /* [CP] Embed Pods Frameworks */,
-				F81B31ABCFB232FB39EBEAA7 /* [CP] Copy Pods Resources */,
+				C107162FBC8285E52D8DF3BF /* [CP] Embed Pods Frameworks */,
+				5B5BF82819784FA7BE6817F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -760,7 +753,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 610;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -809,8 +802,8 @@
 					ProjectRef = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
 				},
 				{
-					ProductGroup = 2B534B5D1FF58F900024CD13 /* Products */;
-					ProjectRef = 6ADA67AAA1574CC69453FF47 /* RCTFBSDK.xcodeproj */;
+					ProductGroup = ADBDB9201DFEBF0600ED6528 /* Products */;
+					ProjectRef = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -847,10 +840,6 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-				},
-				{
-					ProductGroup = 2BBD11721FFE046C006422DD /* Products */;
-					ProjectRef = C9FC87F8E7314D46905DA88E /* RNAWSCognito.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -920,46 +909,81 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2B534B611FF58F900024CD13 /* libRCTFBSDK.a */ = {
+		2BBE443D2003FC9F00ADD7D6 /* libjsinspector.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libRCTFBSDK.a;
-			remoteRef = 2B534B601FF58F900024CD13 /* PBXContainerItemProxy */;
+			path = libjsinspector.a;
+			remoteRef = 2BBE443C2003FC9F00ADD7D6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2B6B80C91FF3182C0024C4B8 /* libthird-party.a */ = {
+		2BBE443F2003FC9F00ADD7D6 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = 2BBE443E2003FC9F00ADD7D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2BBE44412003FC9F00ADD7D6 /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libthird-party.a";
-			remoteRef = 2B6B80C81FF3182C0024C4B8 /* PBXContainerItemProxy */;
+			remoteRef = 2BBE44402003FC9F00ADD7D6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2B6B80CB1FF3182C0024C4B8 /* libthird-party.a */ = {
+		2BBE44432003FC9F00ADD7D6 /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libthird-party.a";
-			remoteRef = 2B6B80CA1FF3182C0024C4B8 /* PBXContainerItemProxy */;
+			remoteRef = 2BBE44422003FC9F00ADD7D6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2B6B80CD1FF3182C0024C4B8 /* libdouble-conversion.a */ = {
+		2BBE44452003FC9F00ADD7D6 /* libdouble-conversion.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libdouble-conversion.a";
-			remoteRef = 2B6B80CC1FF3182C0024C4B8 /* PBXContainerItemProxy */;
+			remoteRef = 2BBE44442003FC9F00ADD7D6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2B6B80CF1FF3182C0024C4B8 /* libdouble-conversion.a */ = {
+		2BBE44472003FC9F00ADD7D6 /* libdouble-conversion.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libdouble-conversion.a";
-			remoteRef = 2B6B80CE1FF3182C0024C4B8 /* PBXContainerItemProxy */;
+			remoteRef = 2BBE44462003FC9F00ADD7D6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2BBD11761FFE046C006422DD /* libRNAWSCognito.a */ = {
+		2BBE44492003FC9F00ADD7D6 /* libprivatedata.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libRNAWSCognito.a;
-			remoteRef = 2BBD11751FFE046C006422DD /* PBXContainerItemProxy */;
+			path = libprivatedata.a;
+			remoteRef = 2BBE44482003FC9F00ADD7D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2BBE444B2003FC9F00ADD7D6 /* libprivatedata-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprivatedata-tvOS.a";
+			remoteRef = 2BBE444A2003FC9F00ADD7D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTBlob-tvOS.a";
+			remoteRef = 2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D16E6841FA4F8DC00B85C8A /* libfishhook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfishhook.a;
+			remoteRef = 2D16E6831FA4F8DC00B85C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D16E6861FA4F8DC00B85C8A /* libfishhook-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfishhook-tvOS.a";
+			remoteRef = 2D16E6851FA4F8DC00B85C8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
@@ -1081,6 +1105,13 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTBlob.a;
+			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1118,24 +1149,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0027F12EBAB3150B4383936E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-authTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1150,37 +1163,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		12D241A68676E59F5FC45D30 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth-tvOS/Pods-auth-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		18044C4DBB99CDE05A7377D9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1E14F45883B4C1898DD28796 /* [CP] Copy Pods Resources */ = {
+		1A7EDF0E03E565E48F7AFE67 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1193,21 +1176,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth-tvOS/Pods-auth-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A403E64D79102B627A4F0B6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-authTests/Pods-authTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -1224,26 +1192,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		45B7A0F962D69219A6337B11 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-auth/Pods-auth-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/AWSAuthUI/AWSAuthUI.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/AWSUserPoolsSignIn/AWSUserPoolsSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth/Pods-auth-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E07DC3B57D5DE62E97AE662 /* [CP] Copy Pods Resources */ = {
+		5B5BF82819784FA7BE6817F6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1255,10 +1204,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-authTests/Pods-authTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BAD01BF1CE7FECAB32576506 /* [CP] Check Pods Manifest.lock */ = {
+		67D0634B62E1F9E12DCACF5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-auth/Pods-auth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth/Pods-auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE9F53EE5506B794EAE5DC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1276,25 +1259,37 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D084ABC46317A9B51FDF4010 /* [CP] Check Pods Manifest.lock */ = {
+		705CC9022720990B90577B2F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-auth-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth/Pods-auth-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF9FF8754885C2C9EE2EC7CE /* [CP] Check Pods Manifest.lock */ = {
+		B3A3DA7CD07D72D6896C6C9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-authTests/Pods-authTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1089683A6A51E7AB84BE35 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1312,22 +1307,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F81B31ABCFB232FB39EBEAA7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF773C12640DA0FB46D0A51E /* [CP] Embed Pods Frameworks */ = {
+		BDD6066BFC761EAB8D643668 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1339,7 +1319,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth/Pods-auth-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth-tvOS/Pods-auth-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C107162FBC8285E52D8DF3BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auth-tvOSTests/Pods-auth-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C966326634670C1E2861649C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-authTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF436453E6A79EBF935E9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-auth-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC1A8E8476A898AB359C80C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-authTests/Pods-authTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-authTests/Pods-authTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1349,8 +1412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B406FDF1FFE11FC0095A816 /* AppDelegate.swift in Sources */,
+				2BBE44522003FD7D00ADD7D6 /* AppDelegate.swift in Sources */,
 				00E356F31AD99517003FC87E /* authTests.m in Sources */,
+				2B9DDFF2200454B800974972 /* ViewController.swift in Sources */,
+				2B7E88C020042894000FBA50 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1358,9 +1423,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B406FDE1FFE11FC0095A816 /* AppDelegate.swift in Sources */,
+				2B9DDFF1200454B800974972 /* ViewController.swift in Sources */,
+				2BBE44512003FD7D00ADD7D6 /* AppDelegate.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1368,8 +1433,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B406FE01FFE11FC0095A816 /* AppDelegate.swift in Sources */,
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2B9DDFF3200454B800974972 /* ViewController.swift in Sources */,
+				2BBE44532003FD7D00ADD7D6 /* AppDelegate.swift in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1378,8 +1443,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B406FE11FFE11FC0095A816 /* AppDelegate.swift in Sources */,
+				2BBE44542003FD7D00ADD7D6 /* AppDelegate.swift in Sources */,
 				2DCD954D1E0B4F2C00145EB5 /* authTests.m in Sources */,
+				2B9DDFF4200454B800974972 /* ViewController.swift in Sources */,
+				2B7E88E620042895000FBA50 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1413,33 +1480,19 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16173DDF75F0C1FDA09E5923 /* Pods-authTests.debug.xcconfig */;
+			baseConfigurationReference = 6F55BB95DA3AFF9CA7B3DF70 /* Pods-authTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
-					"$(SRCROOT)/../node_modules/amazon-cognito-identity-js/ios/**",
-				);
 				INFOPLIST_FILE = authTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1454,30 +1507,16 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6E4E7E3B7AB4F552490138C /* Pods-authTests.release.xcconfig */;
+			baseConfigurationReference = 40AB2375783CA9F933C9D986 /* Pods-authTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
-					"$(SRCROOT)/../node_modules/amazon-cognito-identity-js/ios/**",
-				);
 				INFOPLIST_FILE = authTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1491,26 +1530,18 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 442873A4C8FAF794292EF910 /* Pods-auth.debug.xcconfig */;
+			baseConfigurationReference = 4714F5246AF2092DD71B1055 /* Pods-auth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				"DEAD_CODE_STRIPPING[arch=*]" = NO;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"*~/Documents/FacebookSDK*",
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited) $(PROJECT_DIR) *~/Documents/FacebookSDK*";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
-					"$(SRCROOT)/../node_modules/amazon-cognito-identity-js/ios/**",
-				);
 				INFOPLIST_FILE = auth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1527,24 +1558,15 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93C1367D7895DB5E27CA82E3 /* Pods-auth.release.xcconfig */;
+			baseConfigurationReference = 1879CE29AE5F1167E3AFEBBA /* Pods-auth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				"DEAD_CODE_STRIPPING[arch=*]" = YES;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"*~/Documents/FacebookSDK*",
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited) $(PROJECT_DIR) *~/Documents/FacebookSDK*";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
-					"$(SRCROOT)/../node_modules/amazon-cognito-identity-js/ios/**",
-				);
 				INFOPLIST_FILE = auth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1561,7 +1583,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8894A5A24E83DD722E4F508 /* Pods-auth-tvOS.debug.xcconfig */;
+			baseConfigurationReference = D3795775583B43211C871F29 /* Pods-auth-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1573,23 +1595,9 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
-					"$(SRCROOT)/../node_modules/amazon-cognito-identity-js/ios/**",
-				);
 				INFOPLIST_FILE = "auth-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1607,7 +1615,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1346C5977BBB4F105B9419C /* Pods-auth-tvOS.release.xcconfig */;
+			baseConfigurationReference = 160A658C2D0203A70BE4C1EE /* Pods-auth-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1619,23 +1627,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
-					"$(SRCROOT)/../node_modules/amazon-cognito-identity-js/ios/**",
-				);
 				INFOPLIST_FILE = "auth-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1652,7 +1646,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C7D1C66A5A112D190FDF032 /* Pods-auth-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = F6805B6EB76EBBA8A1115924 /* Pods-auth-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1664,18 +1658,9 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "auth-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.auth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1689,7 +1674,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A3053ADFB55FE9800DC2C84 /* Pods-auth-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = FA342FAC14C46C36183A300A /* Pods-auth-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1701,18 +1686,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TTTZJ4YJNY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "auth-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.auth-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;

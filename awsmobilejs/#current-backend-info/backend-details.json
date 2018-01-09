@@ -1,0 +1,130 @@
+{
+	"name": "react-native-auth",
+	"projectId": "93fc0158-882e-4d38-960b-b7c832363bc4",
+	"region": "us-east-1",
+	"state": "NORMAL",
+	"createdDate": "2017-12-29T03:14:13.561Z",
+	"lastUpdatedDate": "2018-01-05T00:13:35.434Z",
+	"consoleUrl": "https://console.aws.amazon.com/mobilehub/home#/93fc0158-882e-4d38-960b-b7c832363bc4/build",
+	"resources": [
+		{
+			"type": "AWS::Pinpoint::AnalyticsApplication",
+			"name": "reactnativeauth_MobileHub",
+			"arn": "94b606b4ed194f679e77e9785c24eb7f",
+			"feature": "analytics",
+			"attributes": {
+				"lastUpdateRequestID": "587fdd44-ec46-11e7-ac21-d1966f8cfa27"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "reactnativeauth_mobileanalytics_MOBILEHUB_1742794406",
+			"arn": null,
+			"feature": "analytics",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "4457082b-f1ad-11e7-8585-3b6e5f812e2b",
+				"role": "reactnativeauth_auth_MOBILEHUB_1742794406"
+			}
+		},
+		{
+			"type": "AWS::Cognito::IdentityPool",
+			"name": "reactnativeauth_MOBILEHUB_1742794406",
+			"arn": "us-east-1:e58df658-4a0d-49d8-b270-6e96e5209fe5",
+			"feature": "user-signin",
+			"attributes": {
+				"lastUpdateRequestID": "4457082b-f1ad-11e7-8585-3b6e5f812e2b",
+				"poolid": "us-east-1:e58df658-4a0d-49d8-b270-6e96e5209fe5",
+				"roleARNs": "arn:aws:iam::953975093843:role/reactnativeauth_auth_MOBILEHUB_1742794406"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "reactnativeauth_smsverification_MOBILEHUB_1742794406",
+			"arn": "arn:aws:iam::953975093843:role/service-role/reactnativeauth_smsverification_MOBILEHUB_1742794406",
+			"feature": "user-signin",
+			"attributes": {
+				"lastUpdateRequestID": "d3ae20cb-f119-11e7-ab80-db187fe6ecd5",
+				"user-pools-role-key": "user-pools-execution-role"
+			}
+		},
+		{
+			"type": "AWS::Cognito::UserPool",
+			"name": "reactnativeauth_userpool_MOBILEHUB_1742794406",
+			"arn": "us-east-1_YrZnEMrOP",
+			"feature": "user-signin",
+			"attributes": {
+				"alias-attributes": "[\"email\",\"phone_number\"]",
+				"lastUpdateRequestID": "d3ae20cb-f119-11e7-ab80-db187fe6ecd5",
+				"mfa-configuration": "ON",
+				"password-policy": "{\"minimumLength\":8,\"requireUppercase\":true,\"requireLowercase\":true,\"requireNumbers\":true,\"requireSymbols\":true}",
+				"region": "us-east-1",
+				"user-pools-client-id": "4ictuv4arvsgp1p7tadurriq5k",
+				"user-pools-client-secret": "1oschqvspll7mujo6tvn85jbmd8j7h0h75q2i7fro916ggbp90t8",
+				"user-pools-id": "us-east-1_YrZnEMrOP",
+				"user-pools-web-client-id": "25e0ritoh0hljmkdvst7p9ujpi"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "reactnativeauth_auth_MOBILEHUB_1742794406",
+			"arn": "arn:aws:iam::953975093843:role/reactnativeauth_auth_MOBILEHUB_1742794406",
+			"feature": "user-signin",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "4457082b-f1ad-11e7-8585-3b6e5f812e2b"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "reactnativeauth-hosting-mobilehub-1742794406",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"lastUpdateRequestID": "587fdd44-ec46-11e7-ac21-d1966f8cfa27",
+				"region": "us-east-1"
+			}
+		},
+		{
+			"type": "AWS::CloudFront::Distribution",
+			"name": "dy1csunrc1de2.cloudfront.net",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"id": "EX1OYIEYVBCT0",
+				"lastUpdateRequestID": "587fdd44-ec46-11e7-ac21-d1966f8cfa27"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "reactnativeauth_hosting_MOBILEHUB_1742794406",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "4457082b-f1ad-11e7-8585-3b6e5f812e2b",
+				"role": "reactnativeauth_auth_MOBILEHUB_1742794406"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "reactnativeauth-deployments-mobilehub-1742794406",
+			"arn": null,
+			"feature": "common",
+			"attributes": {
+				"region": "us-east-1"
+			}
+		},
+		{
+			"type": "AWS::CloudFormation::Stack",
+			"name": "Development",
+			"arn": null,
+			"feature": "cloud-api",
+			"attributes": {
+				"primary": "true",
+				"region": "us-east-1",
+				"stateSummary": "NOT_YET_DEPLOYED"
+			}
+		}
+	]
+}
